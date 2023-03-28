@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    // define song and artist
+    string song = "Feeling Myself";
+    string artist = "Nicki Minaj ft. Beyoncé";
+
+    // define pointers to the start of the strings
+    char* song_ptr = &song[0];
+    char* artist_ptr = &artist[0];
+
+    // print first character, its address, and the original string
+    cout << "Song: " << *song_ptr << " (" << (void*)song_ptr << "): " << song << endl;
+    cout << "Artist: " << *artist_ptr << " (" << (void*)artist_ptr << "): " << artist << endl;
+
+    // calculate offset for printing only the artist name
+    int artist_offset = artist_ptr - song_ptr;
+
+    // print only the artist name
+    cout << "Artist: " << *(artist_ptr + artist_offset) << " (" << (void*)(artist_ptr + artist_offset) << "): " << (artist_ptr + artist_offset) << endl;
+
+    // print first character, its address, and part of the remaining string
+    cout << "Artist, remaining string: " << *(artist_ptr + artist_offset + 1) << " (" << (void*)(artist_ptr + artist_offset + 1) << "): " << (artist_ptr + artist_offset + 1) << endl;
+
+    return 0;
+}

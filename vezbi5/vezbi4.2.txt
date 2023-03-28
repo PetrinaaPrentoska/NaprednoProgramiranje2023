@@ -1,0 +1,54 @@
+#include <iostream>
+#include <cmath>
+
+//Prentoska Petrina INKI958
+
+using namespace std;
+
+void add(void* a, void* b, void* result) {
+    int x = *(int*)a;
+    int y = *(int*)b;
+    *(int*)result = x + y;
+}
+
+void subtract(void* a, void* b, void* result) {
+    int x = *(int*)a;
+    int y = *(int*)b;
+    *(int*)result = x - y;
+}
+
+void divide(void* a, void* b, void* result) {
+    int x = *(int*)a;
+    int y = *(int*)b;
+    *(float*)result = (float)x / (float)y;
+}
+
+void exponentiate(void* a, void* b, void* result) {
+    int x = *(int*)a;
+    int y = *(int*)b;
+    *(double*)result = pow((double)x, (double)y);
+}
+
+void calculate(void (*function)(void*, void*, void*), int num1, int num2, void* result) {
+    function(&num1, &num2, result);
+}
+
+int main() {
+    int num1 = (int)'P';
+    int num2 = (int)'P';
+    int sum, difference;
+    float quotient;
+    double power;
+
+    calculate(add, num1, num2, &sum);
+    calculate(subtract, num1, num2, &difference);
+    calculate(divide, num1, num2, &quotient);
+    calculate(exponentiate, num1, num2, &power);
+
+    cout << "Sum: " << sum << endl;
+    cout << "Difference: " << difference << endl;
+    cout << "Quotient: " << quotient << endl;
+    cout << "Power: " << power << endl;
+
+    return 0;
+}

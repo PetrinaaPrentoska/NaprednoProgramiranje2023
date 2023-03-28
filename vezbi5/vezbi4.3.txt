@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+   // initialize name and last_name
+   string name = "Petrina";
+   string last_name = "Prentoska";
+
+   // add different characters to name
+   string new_name = "{#$#!na";
+
+   // add different characters to last name
+   string new_last_name = "<^&}toska";
+
+   // print the results
+   cout << name << endl;
+   cout << new_name << endl;
+   cout << last_name << endl;
+   cout << new_last_name << endl;
+
+   return 0;
+}
