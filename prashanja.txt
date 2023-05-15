@@ -1,0 +1,12 @@
+1.Koe e najbrzoto zivotno vo svetot?;   a.leopard;  b.gepard;  c.macka;
+2.Kolku reki ima vo makedonija?;   a.70;  b.20;  c.12 maj;
+3.Koj jazik se zboruva vo avtrsija najmnogu?;   a.Francuski;  b.Angliski;  c.Germanski;
+4.Koja e najmala opstina vo makedonija?;    a.Berovo;  b.Zrnovci;  c.Valandovo;
+5.Koj e najgolem grad vo makedonija?;     a.Skopje;  b.Tetovo;  c.Kumanovo;
+6.Koja e najgolema reka vo makedonija?;   a.Pena;  b.Crn drim;  c.Vardar;
+7.Koja e najbarana marka za koli?;   a.BMW;   b.Opel;  c.Lada;
+8.Kolku dena ima vo edna godina?;   a.652;  b.365;  c.128;
+9.Kolku meseci ima vo godinata?; a.12; b.4; c.6; d.8;
+10.Kolku godisni vreminja postojat?; a.5; b.2; c.4; d.8;
+11.Koi avtomobili se proizveduvaat vo germanija?; a.Audi; b.Toyota; c.Lada; d.Porsche;
+12.Koi gradovi se opfateni od ohridskoto ezero?;  a.Prilep; b.Struga; c.Ohrid; d.Bitola;

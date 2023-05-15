@@ -1,0 +1,25 @@
+1. a  
+2. a  
+3. c  
+4. a 
+5. a  
+6. c  
+7. a  
+8. b  
+9. a 
+10. a c
+11. c d
+12. b a
+   
+
+Ime:
+Petrina
+Prezime:
+Prentoska
+Index
+INKI958
+Vreme na start na testot:Sat Apr 22  20:10:12
+Vreme na zavrshuvanje na test:Sat Apr 22 20:18:36
+
+Poeni:100
+Ocenka:10

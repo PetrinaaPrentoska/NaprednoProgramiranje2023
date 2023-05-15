@@ -1,0 +1,25 @@
+1. a  
+2. a  
+3. c  
+4. b
+5. a  
+6. c  
+7. c  
+8. b  
+9. c 
+10. a c
+11. c d
+12. a a
+   
+
+Ime:
+Marko
+Prezime:
+Atanasovski
+Index
+INKI520
+Vreme na start na testot:Sat Apr 22  21:16:11
+Vreme na zavrshuvanje na test:Sat Apr 22 21:35:30
+
+Poeni:65
+Ocenka:7
